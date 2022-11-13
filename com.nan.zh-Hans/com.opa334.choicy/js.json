@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://invalidunit.github.io/repo/Depictions/Default/top.png",
+    "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
     "tintColor": "#34C759",
     "minVersion": "0.3",
     "tabs": [
@@ -21,11 +21,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.opa334.choicy/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.opa334.choicy/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/Screenshot_02.png"
                         }
                     ]
                 },
