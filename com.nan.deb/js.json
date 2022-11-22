@@ -10,7 +10,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "deb 工具",
+                    "title": "deb 工具，普通(批量)解压，普通(批量)打包",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "提取已安装软件包，deb 信息查看",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -57,7 +63,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "0.1.1",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 11 月 15 日",
+                    "text": "2022 年 11 月 22 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.文件夹所有者和组错误的问题</br> 2.加入检测拒绝以 mobile 身份运行",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
