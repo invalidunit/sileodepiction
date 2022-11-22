@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.文件夹所有者和组错误的问题</br> 2.加入检测拒绝以 mobile 身份运行",
+                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.修复文件夹所有者和组错误的问题</br> 2.加入检测拒绝以 mobile 身份运行",
                     "useRawFormat": true
                 },
                 {
