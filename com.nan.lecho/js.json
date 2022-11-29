@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.3",
+                    "text": "0.1.4",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 11 月 22 日",
+                    "text": "2022 年 11 月 29 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "移除不稳定的自动读取父进程名</br> 添加读取由 lecho_${PPID} 提供的进程名",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.3",
@@ -99,7 +110,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "增加读取 LECHO_LANG",
+                    "markdown": "添加读取 LECHO_LANG",
                     "useRawFormat": true
                 },
                 {
