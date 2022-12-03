@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "关于打包 deb：</br> 更好的修补脚本文件权限为 000 的打包失败</br> </br> 关于将已安装的软件包重新打包为 deb：</br> 新增机械式填充维护者与插件描述信息，防止警告信息",
+                    "markdown": "关于打包 deb：</br> 更好的修补脚本文件权限为 000 的打包失败</br> </br> 关于将已安装的软件包重新打包为 deb：</br> 移除修补 000 打包失败的部分代码，交由打包处理</br> 新增机械式填充维护者与插件描述信息，防止警告信息",
                     "useRawFormat": true
                 },
                 {
@@ -105,7 +105,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.修复因从 DCRM 下载导致部分脚本文件权限为 000 的打包失败</br> 2.适配 lecho 0.1.4",
+                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 修复因从 DCRM 下载导致部分脚本文件权限为 000 的打包失败</br> 适配 lecho 0.1.4",
                     "useRawFormat": true
                 },
                 {
@@ -127,7 +127,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.修复文件夹所有者和组错误的问题</br> 2.加入检测拒绝以 mobile 身份运行",
+                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 修复文件夹所有者和组错误的问题</br> 加入检测拒绝以 mobile 身份运行",
                     "useRawFormat": true
                 },
                 {
