@@ -63,7 +63,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.3",
+                    "text": "0.1.4",
                     "title": "最新版本"
                 },
                 {
@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 11 月 29 日",
+                    "text": "2022 年 12 月 03 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -88,13 +88,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "关于打包 deb：</br> 更好的修补脚本文件权限为 000 的打包失败</br> </br> 关于将已安装的软件包重新打包为 deb：</br> 新增机械式填充维护者与插件描述信息，防止警告信息",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.3",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.修复 DCRM 软件源打包时</br> DEBIAN 内脚本文件权限为 000 导致的打包失败</br> 2.适配 lecho 0.1.4",
+                    "markdown": "关于将已安装的软件包重新打包为 deb：</br> 1.修复因从 DCRM 下载导致部分脚本文件权限为 000 的打包失败</br> 2.适配 lecho 0.1.4",
                     "useRawFormat": true
                 },
                 {
