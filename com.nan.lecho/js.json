@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.5",
+                    "text": "0.1.6",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "7.0 - 14.9",
+                    "text": "7.0 - 15.9",
                     "title": "支持系统"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 12 月 05 日",
+                    "text": "2022 年 12 月 13 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复直接指定语言名时，没有校验是否存在文件</br> 现在若没有找到对应文件，将会指向 Base",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.5",
