@@ -63,7 +63,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.7",
+                    "text": "0.1.8",
                     "title": "最新版本"
                 },
                 {
@@ -86,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复强制卸载部分文件没有移除</br> 为强制安装，强制卸载加入中文翻译（需要 lecho）",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.7",
