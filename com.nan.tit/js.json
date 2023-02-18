@@ -14,6 +14,16 @@
                     "class":"DepictionTableButtonView"
                 },
                 {
+                    "title":"打开 taurine-permanent",
+                    "action":"taurine://",
+                    "class":"DepictionTableButtonView"
+                },
+                {
+                    "title":"打开 Taurine in Tips",
+                    "action":"tit://",
+                    "class":"DepictionTableButtonView"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 1
                 },
@@ -29,6 +39,11 @@
                     "title": "Tips 的外壳，Taurine 的内在",
                     "useBoldText": true,
                     "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "原理",
+                    "title": "将不掉签的 taurine-permanent 稍作修改后替换掉 Tips（提示）来实现 rootfs后依然可以正常打开，因为 rootfs 只还原系统区，而 Tips（提示）的 app 文件在用户区"
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -73,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.0",
+                    "text": "0.2.1-0",
                     "title": "最新版本"
                 },
                 {
@@ -83,7 +98,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 10 月 12 日",
+                    "text": "2023 年 02 月 18 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -96,6 +111,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "桌面图标替换为书签来防止用户不小心移除，同时书签可以有效解决白图标的情况",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.0",
