@@ -41,9 +41,9 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "原理",
-                    "title": "将不掉签的 taurine-permanent 稍作修改后替换掉 Tips（提示）来实现 rootfs后依然可以正常打开，因为 rootfs 只还原系统区，而 Tips（提示）的 app 文件在用户区"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将不掉签的 taurine-permanent 稍作修改后替换掉 Tips（提示）来实现 rootfs后依然可以正常打开，因为 rootfs 只还原系统区，而 Tips（提示）的 app 文件在用户区",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
