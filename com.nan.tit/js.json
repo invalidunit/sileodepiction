@@ -14,16 +14,6 @@
                     "class":"DepictionTableButtonView"
                 },
                 {
-                    "title":"打开 taurine-permanent",
-                    "action":"taurine://",
-                    "class":"DepictionTableButtonView"
-                },
-                {
-                    "title":"打开 Taurine in Tips",
-                    "action":"tit://",
-                    "class":"DepictionTableButtonView"
-                },
-                {
                     "class": "DepictionSpacerView",
                     "spacing": 1
                 },
