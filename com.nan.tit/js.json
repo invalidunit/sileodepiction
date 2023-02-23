@@ -107,6 +107,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.2.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "移除书签，书签貌似并不完全有效，使用其他方法尝试缓解白图标",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.2.1",
                     "useBoldText": true,
                     "useBottomMargin": false
