@@ -21,23 +21,17 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.enableccmutemodule/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/repo/Depictions/com.nan.enableccmutemodule/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.enableccmutemodule/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/repo/Depictions/com.nan.enableccmutemodule/Screenshot_02.png"
                         }
                     ]
                 },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "为 iPhone 启用 CC 模块 '静音模式'",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "因为是修改系统文件，所以重启后静音按钮还在。",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },

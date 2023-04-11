@@ -69,17 +69,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.1",
+                    "text": "0.4.2",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.3",
+                    "text": "2.3-1",
                     "title": "支持 Sileo 版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 02 月 20 日",
+                    "text": "2023 年 04 月 01 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -92,6 +92,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "移除脚本，直接释放文件，同时增加 Sileo Nightly 支持",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.1",
