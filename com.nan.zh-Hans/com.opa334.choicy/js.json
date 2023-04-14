@@ -75,8 +75,11 @@
                     "spacing": 16
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "title":"添加作者源",
-                    "action":"sileo://source/https://opa334.github.io/",
+                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/meta.html",
                     "class":"DepictionTableButtonView"
                 }
             ]
