@@ -1,7 +1,7 @@
 {
     "class": "DepictionTabView",
     "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
-    "tintColor": "#34C759",
+    "tintColor": "#8EC5FC",
     "minVersion": "0.3",
     "tabs": [
         {
@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "为 Choicy 提供简体中文",
+                    "title": "为 SettingsRevamp 提供简体中文",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -21,11 +21,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.sop.settingsrevamp/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.sop.settingsrevamp/Screenshot_02.png"
                         }
                     ]
                 },
@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "0.1.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.7",
+                    "text": "2.0",
                     "title": "支持版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 04 月 01 日",
+                    "text": "2023 年 04 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,7 +79,7 @@
                 },
                 {
                     "title":"添加作者源（请选择右下角 Safari 打开）",
-                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.opa334.choicy/meta.html",
+                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.sop.settingsrevamp/meta.html",
                     "class":"DepictionTableButtonView"
                 }
             ]
@@ -90,24 +90,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1.1",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "修改语句不通畅的地方",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
                     "title": "0.1.0",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "初始版本，支持 Choicy 1.4.2",
+                    "markdown": "初始版本，支持 SettingsRevamp 2.0",
                     "useRawFormat": true
                 }
             ]
