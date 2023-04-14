@@ -73,6 +73,11 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 16
+                },
+                {
+                    "title":"添加作者源",
+                    "action":"sileo://source/https://opa334.github.io/",
+                    "class":"DepictionTableButtonView"
                 }
             ]
         },
