@@ -15,6 +15,12 @@
                     "useBottomMargin": false
                 },
                 {
+                    "class": "DepictionSubheaderView",
+                    "title": "暂不支持 Dopamine",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -62,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "11.0 - 14.9",
+                    "text": "11.0 - 15.9",
                     "title": "支持系统范围"
                 },
                 {
