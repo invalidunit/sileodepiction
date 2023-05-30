@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.5",
+                    "text": "0.1.6",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 05 月 26 日",
+                    "text": "2023 年 05 月 30 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "改进多 key 下的行为</br> 同时将默认请求方法改为 GET，与 App 内一致，便于 PhotonOS 类似没有 jo 的系统使用，没有 jo 的话无法构建 json，虽然说是我懒",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.5",
@@ -99,7 +110,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "改进 dash 下 bark 会输出换行符 \n 的问题",
+                    "markdown": "改进 dash 下 bark 会输出换行符 \\n 的问题",
                     "useRawFormat": true
                 },
                 {
