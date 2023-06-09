@@ -69,17 +69,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.3",
+                    "text": "0.4.4",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.4.2",
+                    "text": "2.5",
                     "title": "支持 Sileo 版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 04 月 15 日",
+                    "text": "2023 年 06 月 09 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -92,6 +92,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增 2.5 中的新文本翻译",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.3",
