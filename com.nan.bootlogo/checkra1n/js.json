@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "增加 iPhone 13 尺寸",
+                    "markdown": "增加 iPhone 13 尺寸</br> rootless 自行挂载路径：</br> /System/Library/PrivateFrameworks/ProgressUI.framework",
                     "useRawFormat": true
                 },
                 {
