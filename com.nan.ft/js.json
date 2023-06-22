@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "一个从设备首张快照提取字体的脚本",
+                    "title": "一个从设备提取默认字体的脚本",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.8",
+                    "text": "0.5.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "11.0 - 14.9",
+                    "text": "11.0 - 15.9",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 12 月 25 日",
+                    "text": "2023 年 06 月 22 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "完全移除 lecho 支持，他只会让运行速度变慢，而且适配需要太多功夫</br> 大部分重写，并且摒弃将 orig-fs 快照名修改为其他的支持</br> 加入 rootless 支持",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.8",
