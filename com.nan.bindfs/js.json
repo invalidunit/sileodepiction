@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.4",
+                    "text": "0.2.5",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 06 月 21 日",
+                    "text": "2023 年 07 月 01 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "改进挂载与卸载，现在可以像 \"-s\" 一样直接后面跟多个路径</br> 优化自动挂载，现在仅在 Dopamine 注入插件开关打开时进行挂载，防止错误的配置文件导致不间断的尝试挂载后重启用户空间",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.4",
