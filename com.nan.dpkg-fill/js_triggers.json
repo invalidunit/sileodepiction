@@ -15,12 +15,6 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "主要给不会使用终端的小白使用的",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -63,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0-b6",
+                    "text": "0.1.0-b7",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "12.0 - 14.9",
+                    "text": "12.0 - 15.9",
                     "title": "支持系统"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 04 月 30 日",
+                    "text": "2023 年 07 月 24 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.0-b7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "不再将 dpkg-fill 启动为孤儿进程</br> 适配 dpkg-fill 0.3.5，使用 --lite 打印精简日志",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0-b6",
