@@ -15,12 +15,6 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "需要终端手动运行",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -63,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.3",
+                    "text": "0.3.5",
                     "title": "最新版本"
                 },
                 {
@@ -73,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 04 月 19 日",
+                    "text": "2023 年 07 月 24 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +80,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复不能正确换行的错误</br> 加入 --lite 支持，为触发器触发时打印简短日志（需要新的触发器支持）</br> 完全移除 lecho 支持，这只会让运行速度变慢和让总体变得更难维护",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "错误修复",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.3",
