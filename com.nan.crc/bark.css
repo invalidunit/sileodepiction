@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  width: 12%;
+}
+
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: black;
+    color: white;
+  }
+  img{
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  p{
+    font-size: 21px;
+  }
+}

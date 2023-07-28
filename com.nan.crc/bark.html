@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./bark.css">
+    <title>crc 配置文件配置用法</title>
+  </head>
+  <body>
+    <h1>Check repo change 配置文件配置用法</h1>
+    <h2>一、从 AppStore 安装 Bark</h2>
+    <p>1.请先从 AppStore 中安装 Bark App，这是为你推送通知的方式，主要目前还没找到（也可能我不会）纯终端可以往越狱设备推送通知的命令</p>
+    <picture>
+      <source srcset="images/image_1_1_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_1_1_1_light.png" alt="">
+    </picture>
+    <h2>二、获取 Bark 推送 key</h2>
+    <p>1.打开 Bark app 后点击中心的圆形注册按钮</p>
+    <p>2.按下图黄色框框圈起来的位置复制链接</p>
+    <picture>
+      <source srcset="images/image_2_1_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_1_1_light.png" alt="">
+    </picture>
+    <p>3.将复制出来的链接仅保留上图红色框框部分（两个斜杠中间夹着的部分就是 key，不包含斜杠）</p>
+    <h2>三、修改配置文件中关于 bark 的配置</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p>rootfull</p>
+    <p1>/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>rootless</p>
+    <p1>/var/jb/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>2.点击 bark 展开子菜单，找到 key 也就是下图红框位置</p>
+    <picture>
+      <source srcset="images/image_3_2_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_3_2_1_light.png" alt="">
+    </picture>
+    <p>3.点击 key 右侧的 i 也就是上图黄框位置，并粘贴第二步中获得的 key</p>
+    <h1>扩展</h1>
+    <h2>一、添加新的检测源</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p>rootfull</p>
+    <p1>/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>rootless</p>
+    <p1>/var/jb/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>2.点击 source 展开子菜单，按照下图格式新建 Item</p>
+    <picture>
+      <source srcset="images/image_E_1_2_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_E_1_2_1_light.png" alt="">
+    </picture>
+    <p>主要构成部分为 enable 和 url</p>
+    <p>enable 用来控制是否为这个源启用检测</p>
+    <p>url 用来为 crc 提供源地址</p>
+  </body>
+</html>
