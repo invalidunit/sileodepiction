@@ -52,5 +52,34 @@
     <p>主要构成部分为 enable 和 url</p>
     <p>enable 用来控制是否为这个源启用检测</p>
     <p>url 用来为 crc 提供源地址</p>
+    <h2>二、自定义通知标题</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p>rootfull</p>
+    <p1>/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>rootless</p>
+    <p1>/var/jb/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>2.点击 bark 展开子菜单，找到 title，下图红框部分</p>
+    <picture>
+      <source srcset="images/image_E_2_2_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_E_2_2_1_light.png" alt="">
+    </picture>
+    <p>点击上图黄框部分可以换成任何你想自定义的文字，软件源名称可以用 repo_name 来代替</p>
+    <p>例如：</p>
+    <p>repo_name 已变更</p>
+    <p>发现 repo_name 已变动</p>
+    <h2>三、自定义部分通知内容</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p>rootfull</p>
+    <p1>/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>rootless</p>
+    <p1>/var/jb/var/mobile/Library/Preferences/com.nan.crc.plist</p1>
+    <p>2.点击 bark 展开子菜单，找到 body，如下图红框部分</p>
+    <picture>
+      <source srcset="images/image_E_3_2_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_E_3_2_1_light.png" alt="">
+    </picture>
+    <p>里面会有 3 个子项目，分别是 add（新增），del（移除），up（更新现有版本）</p>
+    <p>按上图的黄框部分可以将他们换成你喜欢的语句，不过目前通知顺序改不了</p>
+    <p>他们在通知横幅中的顺序从上到下依次是“更新”，“新增”，“删除”</p>
   </body>
 </html>
