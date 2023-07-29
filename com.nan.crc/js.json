@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，主要自用",
+                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，每一小时检测一次变更，主要自用",
                     "useRawFormat": true
                 },
                 {
