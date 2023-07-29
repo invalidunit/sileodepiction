@@ -10,7 +10,12 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，自用",
+                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，主要自用",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "配置完 key 后可以重装此包来开始工作，若配置文件中没有 key 将不会在安装完成后启动守护进程",
                     "useRawFormat": true
                 },
                 {
@@ -70,7 +75,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0-b5",
+                    "text": "0.1.0",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +106,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "初始大屎山",
+                    "markdown": "初始版本，初始大屎山",
                     "useRawFormat": true
                 }
             ]
