@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，每一小时检测一次变更，主要自用",
+                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，每 1 小时由 launch 拉起来检测一次变更，其他时间完全没启动，主要自用",
                     "useRawFormat": true
                 },
                 {
@@ -75,7 +75,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "0.1.1",
                     "title": "最新版本"
                 },
                 {
@@ -85,7 +85,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 07 月 28 日",
+                    "text": "2023 年 07 月 31 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -98,6 +98,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "移除防止守护进程同时和用户同时运行的保护机制，概率小到基本没有，而且就算这么巧那么在下一个 1 小时来之后也会恢复正常缓存，而且目前这个检查的工作好像有点不正常",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
