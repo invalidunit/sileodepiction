@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "加入轻量的 deb 在线下载，暂不支持指定目标路径存放，不支持付费包，别想了",
+                    "markdown": "完全移除 lecho 支持，这只会拖慢速度和让后续维护变得艰难</br> 加入轻量的 deb 在线下载，暂不支持指定目标路径存放，不支持付费包，别想了",
                     "useRawFormat": true
                 },
                 {
