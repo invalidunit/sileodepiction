@@ -81,6 +81,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复文件名 .deb.deb 的问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.1",
                     "useBoldText": true,
                     "useBottomMargin": false
