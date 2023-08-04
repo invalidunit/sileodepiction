@@ -81,6 +81,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "使用相对路径解决 rootfull 版想使用守护进程就要在 /Library 内拉屎的问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.2",
                     "useBoldText": true,
                     "useBottomMargin": false
