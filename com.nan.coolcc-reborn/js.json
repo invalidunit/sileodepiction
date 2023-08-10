@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
+    "headerImage": "https://invalidunit.github.io/sileodepiction/com.nan.coolcc/top.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -9,9 +9,10 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "在重启用户空间后注销一次，主要用于尝试缓解 iPhone 12 在重启用户空间之后的暗屏",
-                    "useRawFormat": true
+                    "class": "DepictionSubheaderView",
+                    "title": "很酷的线条轮廓控制中心",
+                    "useBoldText": true,
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -20,11 +21,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.coolcc/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.coolcc/Screenshot_02.png"
                         }
                     ]
                 },
@@ -51,22 +52,27 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "zhaonan",
-                    "title": "作者"
+                    "text": "alias20",
+                    "title": "原始作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "lclrc(SquidForce)",
+                    "title": "编译与维护更新"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2.0-1",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "14.0 - 15.4.1",
-                    "title": "理论支持系统范围"
+                    "text": "15.0 - 15.9",
+                    "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 08 月 07 日",
+                    "text": "2023 年 08 月 08 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -77,28 +83,17 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新日志",
+            "tabname": "说点什么",
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1.1",
+                    "title": "null",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "可能不卡菊花了？",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.0",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "初始版本，只有一个小白鼠测试了",
+                    "markdown": "再进一步，就能找到世界的真实了吗？",
                     "useRawFormat": true
                 }
             ]
