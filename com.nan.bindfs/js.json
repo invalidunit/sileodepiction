@@ -82,6 +82,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.3.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "小改进守护进程",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.3.1",
                     "useBoldText": true,
                     "useBottomMargin": false

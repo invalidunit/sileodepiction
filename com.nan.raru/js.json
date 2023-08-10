@@ -81,6 +81,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "可能不卡菊花了？",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.0",
                     "useBoldText": true,
                     "useBottomMargin": false
