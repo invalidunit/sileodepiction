@@ -57,8 +57,13 @@
                 },
                 {
                     "class": "DepictionTableTextView",
+                    "text": "来了老弟",
+                    "title": "编译与维护更新 1"
+                },
+                {
+                    "class": "DepictionTableTextView",
                     "text": "lclrc(SquidForce)",
-                    "title": "编译与维护更新"
+                    "title": "编译与维护更新 2"
                 },
                 {
                     "class": "DepictionTableTextView",
