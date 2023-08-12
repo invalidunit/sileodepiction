@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "0.1.2",
                     "title": "最新版本"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "加入延迟，可能缓解 homebar 无响应的问题？",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.1",
