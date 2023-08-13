@@ -87,7 +87,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "加入自定义延迟，默认配置文件 10 秒，每个手机的体制不一样，所以默认 10 秒应该能确保先进入到桌面再注销，觉得太慢的话请以文本编辑器打开</br> /var/jb/var/mobile/Library/Preferences/com.nan.raru.conf</br> 手动更改想要延时的秒数，请不要输入数字以外的内容。</br> 过短的时间可能引起其他 bug，例如 homebar（手势横条）无响应，或者直接卡在 Logo 界面但是 Night Shift（夜览）开始工作。",
+                    "markdown": "加入自定义延迟，默认配置文件 10 秒，每个手机的体制不一样，所以默认 10 秒应该能确保先进入到桌面再注销，觉得太慢的话请以文本编辑器打开</br> </br> /var/jb/var/mobile/Library/Preferences/com.nan.raru.conf</br> </br> 手动更改想要延时的秒数，请不要输入数字以外的内容。</br> </br> </br> 过短的时间可能引起其他 bug，例如 homebar（手势横条）无响应，或者直接卡在 Logo 界面但是 Night Shift（夜览）开始工作。",
                     "useRawFormat": true
                 },
                 {
