@@ -1,7 +1,7 @@
 {
     "class": "DepictionTabView",
     "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
-    "tintColor": "#4AA0E8",
+    "tintColor": "#41E43E",
     "minVersion": "0.3",
     "tabs": [
         {
@@ -10,14 +10,9 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "定制你的控制中心。",
+                    "title": "进程查看器",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "包括透明模块，重新排列连接模块，修改模块大小，天气模块（应该不可用）",
-                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -26,11 +21,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.bettercc/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.cocoatop64/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.bettercc/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.cocoatop64/Screenshot_02.png"
                         }
                     ]
                 },
@@ -57,27 +52,22 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Miguelaka95",
-                    "title": "原始作者"
+                    "text": "Domo",
+                    "title": "作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "无尽伤痛都锁进黑夜",
-                    "title": "变通维护"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "0.0.5-wu",
+                    "text": "2.2.3-nan",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "15.0 - 15.9",
+                    "text": "9.0 - 15.9",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 07 月 19 日",
+                    "text": "2023 年 07 月 08 日",
                     "title": "最后更新日期"
                 },
                 {
