@@ -21,11 +21,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.eliofeghali.souvenir/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.eliofeghali.souvenir/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.eliofeghali.souvenir/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.eliofeghali.souvenir/Screenshot_02.png"
                         }
                     ]
                 },
@@ -79,7 +79,7 @@
                 },
                 {
                     "title":"添加作者源（请选择右下角 Safari 打开）",
-                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-Hans/com.eliofeghali.souvenir/meta.html",
+                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.eliofeghali.souvenir/meta.html",
                     "class":"DepictionTableButtonView"
                 }
             ]
