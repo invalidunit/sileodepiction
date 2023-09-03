@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "暂不支持 Dopamine",
+                    "title": "暂不支持 Dopamine 与 xina",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -63,7 +63,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.2",
+                    "text": "0.2.3",
                     "title": "最新版本"
                 },
                 {
@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 03 月 05 日",
+                    "text": "2023 年 09 月 03 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "锁定更多文件，防止系统恢复",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.2",
