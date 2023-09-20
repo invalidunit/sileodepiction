@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.5",
+                    "text": "0.1.6",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.14",
+                    "text": "1.15",
                     "title": "支持版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 09 月 16 日",
+                    "text": "2023 年 09 月 20 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -88,6 +88,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新支持 Souvenir 1.15",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.5",
