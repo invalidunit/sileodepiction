@@ -31,6 +31,15 @@
                     "useBottomMargin": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将官方的不掉签 taurine-permanent 修改后替换掉 Tips（提示）来实现 rootfs 后依然可以正常打开，因为 rootfs 只还原系统区，而 Tips（提示）的 app 文件在用户区",
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -73,7 +82,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.5-1-1.1.7",
+                    "text": "0.2.4",
                     "title": "最新版本"
                 },
                 {
@@ -83,8 +92,13 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 09 月 19 日",
+                    "text": "2023 年 10 月 09 日",
                     "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.1.7-3",
+                    "title": "内置 Taurine 版本"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -96,6 +110,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新内置 Taurine 版本为 1.1.7-3，同时更新 tit 补丁为 0.2.4",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.5-1-1.1.7",

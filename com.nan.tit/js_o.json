@@ -82,7 +82,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.3-0",
+                    "text": "0.2.4",
                     "title": "最新版本"
                 },
                 {
@@ -92,7 +92,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 02 月 28 日",
+                    "text": "2023 年 10 月 09 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -107,13 +107,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.2.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "优化将 taurine-permanent 塞入 tips 的补丁，丢弃多余的语句</br> 丢弃 plistbuddy 依赖</br> 重建图标缓存切换到 uicache 新方法，快速取消注册再注册，应该有助于快速刷新图标缓存",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.2.3",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "初始版本",
+                    "markdown": "初始版本，拷贝自 tit 并修改",
                     "useRawFormat": true
                 }
             ]
