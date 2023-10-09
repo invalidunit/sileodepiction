@@ -112,7 +112,18 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "null",
+                    "title": "插件有多少能发挥作用？",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "基本就剩下个 UI 能看了，其他功能全残废，连手动滑动调节音量都用不了。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "关于安装后卡黑屏？",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
