@@ -9,8 +9,24 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "在重启用户空间后注销一次，主要用于尝试缓解 iPhone 12 在重启用户空间之后的暗屏",
+                    "title":"在 Filza 中跳转到配置文件",
+                    "action":"filza://view/var/jb/var/mobile/Library/Preferences/com.nan.raru.conf",
+                    "class":"DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "在重启用户空间后注销一次，主要用于尝试缓解 iPhone 12 在重启用户空间之后的暗屏",
                     "useRawFormat": true
                 },
                 {

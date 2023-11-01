@@ -100,7 +100,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "将软链接重新修改问创建空文件",
+                    "markdown": "将软链接重新修改为创建空文件",
                     "useRawFormat": true
                 },
                 {

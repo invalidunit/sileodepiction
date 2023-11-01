@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "一个触发器，被 dpkg 拉起后尽可能的从 apt 缓存文件夹中尝试保存 deb，不释放文件的软件包可能无法触发此触发器，保存后的 deb 存放在 /private/var/mobile/Downloads/dpkg_triggered",
+                    "markdown": "一个触发器，被 dpkg 拉起后尽可能的从 apt 缓存文件夹中尝试保存 deb，不释放文件的软件包可能无法触发此触发器，保存后的 deb 存放在</br> /private/var/mobile/Downloads/dpkg_triggered",
                     "useRawFormat": true
                 },
                 {
@@ -61,7 +61,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "14.0 - 15.4.1",
+                    "text": "12.0 - 15.4.1",
                     "title": "理论支持系统范围"
                 },
                 {

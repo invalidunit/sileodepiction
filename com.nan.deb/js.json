@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "筛选掉 \r",
+                    "markdown": "筛选掉 \\r",
                     "useRawFormat": true
                 },
                 {
