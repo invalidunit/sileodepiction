@@ -106,7 +106,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复上个版本使用自定义图片时候无法正确获取的问题</br> </br> 增加每次安装时移除 Bark 图片缓存，若发现推送横幅中的图片与 Sileo 中看到的有出入也可以重装此包来移除 Bark 图片缓存（iOS15+ 功能）</br> </br> 更新支持 roothide，同时配置文件与缓存已修改到 Bark app 的数据目录，若安装过老版本请手动迁移配置文件到新路径</br> 配置文件路径：</br> bark data/Library/Preferences/com.nan.crc.plist</br> 缓存目录路径：</br> bark data/Library/Caches/com.nan.crc/",
+                    "markdown": "修复上个版本使用自定义图片时候无法正确获取的问题</br> </br> 增加每次安装时移除 Bark 图片缓存，若发现推送横幅中的图片与 Sileo 中看到的有出入也可以重装此包来移除 Bark 图片缓存（iOS15+ 功能）</br> </br> 更新支持 roothide，同时配置文件与缓存已修改到 Bark app 的数据目录，若安装过老版本请手动迁移配置文件到新路径</br> 新配置文件路径：</br> bark_data/Library/Preferences/com.nan.crc.plist",
                     "useRawFormat": true
                 },
                 {
