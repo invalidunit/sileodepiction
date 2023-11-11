@@ -9,16 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "deb 工具，普通(批量)解压，普通(批量)打包",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "提取已安装软件包，deb 信息查看",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "deb 工具，普通(批量)解压，普通(批量)打包，deb 信息查看，提取已安装软件包，在线下载",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -63,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.2",
+                    "text": "0.2.5",
                     "title": "最新版本"
                 },
                 {
@@ -73,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 08 月 29 日",
+                    "text": "2023 年 11 月 11 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "重写 deb 下载 deb 部分，现在可以指定 Architecture 与版本号</br> 详细请看 deb -h 中的例子，版本号可以不写，将尝试下载能搜索到的最新版本，如果没有在列表内找到会直接报错，不支持付费包下载",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.2",
