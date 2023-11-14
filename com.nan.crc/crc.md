@@ -19,13 +19,9 @@
 
 1.从 Filza 中打开文件
 
-rootfull
+	<bark data>/Library/Preferences/com.nan.crc.plist
 
-	/var/mobile/Library/Preferences/com.nan.crc.plist
-
-rootless
-
-	/var/jb/var/mobile/Library/Preferences/com.nan.crc.plist
+\<bark data\> 即 bark 存放数据的路径
 
 2.点击 bark 展开子菜单，找到 key 也就是下图红框位置
 
