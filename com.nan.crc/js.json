@@ -9,6 +9,22 @@
             "tabname": "描述",
             "views": [
                 {
+                    "title":"跳转 AppStore 安装 Bark",
+                    "action":"https://apps.apple.com/app/id1403753865",
+                    "class":"DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "检查软件源变更然后使用 bark 推送的守护进程，每 1 小时由 launch 拉起来检测一次变更，其他时间完全没启动，主要自用",
                     "useRawFormat": true

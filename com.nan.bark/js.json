@@ -9,6 +9,22 @@
             "tabname": "描述",
             "views": [
                 {
+                    "title":"跳转 AppStore 安装 Bark",
+                    "action":"https://apps.apple.com/app/id1403753865",
+                    "class":"DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "用于向 bark 服务器推送自定义消息的 cli 脚本",
                     "useBoldText": true,
