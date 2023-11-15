@@ -75,7 +75,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.2",
+                    "text": "0.2.3",
                     "title": "最新版本"
                 },
                 {
@@ -85,7 +85,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 13 日",
+                    "text": "2023 年 11 月 15 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -98,6 +98,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复过滤器设置为 all 时可能会错误的检测到同更新例如 0.1.0 -> 0.1.0，现在设置为 all 时将会直接移除本地缓存中的 Architecture",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.2",
