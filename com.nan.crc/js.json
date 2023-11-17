@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.3",
+                    "text": "0.2.4",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 15 日",
+                    "text": "2023 年 11 月 17 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -116,13 +116,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.2.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "回滚上版本的修复并改进其余对比部分来解决同版本更新推送问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.2.3",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复过滤器设置为 all 时可能会错误的检测到同更新例如 0.1.0 -> 0.1.0，现在设置为 all 时将会直接移除本地缓存中的 Architecture",
+                    "markdown": "尝试修复过滤器设置为 all 时可能会错误的检测到同更新例如 0.1.0 -> 0.1.0，现在设置为 all 时将会直接移除本地缓存中的 Architecture",
                     "useRawFormat": true
                 },
                 {
