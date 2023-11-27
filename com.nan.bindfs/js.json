@@ -52,8 +52,13 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "无尽伤痛都锁进黑夜 & zhaonan",
-                    "title": "作者"
+                    "text": "无尽伤痛都锁进黑夜",
+                    "title": "bindfs 执行文件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "zhaonan",
+                    "title": "自动挂载作者"
                 },
                 {
                     "class": "DepictionTableTextView",

@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "挂载了错误的路径无法正常越狱的时候可以在这里新建文件</br> /var/mobile/.not_auto_mount</br> 来去掉掉自动挂载（不是文件夹）",
+                    "markdown": "挂载了错误的路径无法正常越狱的时候可以在这里新建文件</br> /var/mobile/.not_auto_mount</br> 来禁用自动挂载（不是文件夹）",
                     "useRawFormat": true
                 },
                 {
