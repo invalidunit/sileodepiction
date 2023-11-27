@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "0.1.2",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 27 日",
+                    "text": "2023 年 11 月 28 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -87,13 +87,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "继续尝试",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.1",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复 xinna 过早拉起守护可能导致越狱过程中重启的问题",
+                    "markdown": "尝试修复 xinna 过早拉起守护可能导致越狱过程中重启的问题",
                     "useRawFormat": true
                 },
                 {
