@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "用于向 bark 服务器推送自定义消息的 cli 脚本",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "通过锁定 /var/MobileSoftwareUpdate/MobileAsset/AssetsV2 来阻止系统更新",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
