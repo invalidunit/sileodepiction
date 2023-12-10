@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.7",
+                    "text": "0.3.8",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "11.0 - 15.9",
+                    "text": "11.0 - 17.9",
                     "title": "支持系统"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 09 月 02 日",
+                    "text": "2023 年 12 月 10 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "重新加入 mobile 下自动 sudo 的方法</br> 优化监测 dpkg 运行方法，使用 lsof 来直接获取 dpkg 锁，可解决老方法一直认为 dpkg 在运行，而实际是 PkgHistory 这类包的问题</br> 从 deb 中拷贝了新的获取本地路径方法，更优雅",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.7",
