@@ -3,7 +3,7 @@
 
 1.请先从 App Store 中安装 Bark App，这是为你推送通知的方式，主要目前还没找到（也可能我不会）纯终端可以往越狱设备推送通知的命令
 
-[点击此处跳转 App Store](https://apps.apple.com/cn/app/id1403753865 "Bark")
+[点击此处跳转 App Store](https://apps.apple.com/app/id1403753865 "Bark")
 
 ![image_1_1_1_light](./images/image_1_1_1_light.png)
 ## 二、获取 Bark 推送 key
