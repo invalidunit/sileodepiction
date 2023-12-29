@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cac.css">
+    <title>cac 配置文件添加 key</title>
+  </head>
+  <body>
+    <h1>Check AppStore change 配置文件添加 key</h1>
+    <h2>一、从 App Store 安装 Bark</h2>
+    <p>1.请先从 App Store 中安装 Bark App，这是为你推送通知的方式。</p>
+    <a href="https://apps.apple.com/app/id1403753865" target="_blank">打开 Bark 安装页</a>
+    <p>点击上方跳转 App Store</p>
+    <picture>
+      <source srcset="images/image_1_1_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_1_1_1_light.png" alt="">
+    </picture>
+    <h2>二、获取 Bark 推送 key</h2>
+    <p>1.打开 Bark app 后点击中心的圆形注册按钮</p>
+    <p>2.按下图黄色框框圈起来的位置复制链接</p>
+    <picture>
+      <source srcset="images/image_1_2_2_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_1_2_2_light.png" alt="">
+    </picture>
+    <p>3.将复制出来的链接仅保留上图蓝色框框部分（两个斜杠中间夹着的部分就是 key，不包含斜杠）</p>
+    <h2>三、将 key 写入 cac 配置文件</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p1>&lt;bark_data&gt;/Library/Preferences/com.nan.cac.plist</p1>
+    <p>&lt;bark_data&gt; 即 Bark 存放数据的文件夹</p>
+    <p>2.点击 bark 展开子菜单，找到 key，然后点开，找到 item 0 也就是下图蓝框位置</p>
+    <picture>
+      <source srcset="images/image_1_3_2_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_1_3_2_light.png" alt="">
+    </picture>
+    <p>3.点击 item 0 右侧的 i 也就是上图黄框位置，并粘贴第二步中获得的 key</p>
+    <p>4.配置完 key 后可以重装软件包，这会触发一条测试用的通知，告诉你开始工作了</p>
+    <h1>进阶</h1>
+    <h2>添加多个 key，以便推送到多个设备</h2>
+    <p>只需在 key 中添加多个 item</p>
+    <p>如下图所示</p>
+    <picture>
+      <source srcset="images/image_1_01_1_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_1_01_1_light.png" alt="">
+    </picture>
+    <hr></hr>
+    <a href="cac.html" target="_self">返回首页</a>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cac.css">
+    <title>cac 配置文件全局配置推送参数</title>
+  </head>
+  <body>
+    <h1>Check AppStore change 配置文件全局配置推送参数</h1>
+    <p>1.从 Filza 中打开文件</p>
+    <p1>&lt;bark_data&gt;/Library/Preferences/com.nan.cac.plist</p1>
+    <p>&lt;bark_data&gt; 即 Bark 存放数据的文件夹</p>
+    <p>2.找到 bark，然后点击左边箭头来展开子项目</p>
+    <picture>
+      <source srcset="images/image_3_0_2_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_3_0_2_light.png" alt="">
+    </picture>
+    <p>3.下面是有关于子项目的描述，请自行判断是否需要修改以及想改成什么样子</p>
+    <hr></hr>
+    <p>key</p>
+    <p>用来指定推送到哪个设备，可以多个设备</p>
+    <hr></hr>
+    <p>server</p>
+    <p>默认没有，可以自己加，使用自定义 bark 服务器用作推送，但我觉得这对于这个用途来说没什么必要</p>
+    <hr></hr>
+    <p>Hello_World</p>
+    <p>测试的欢迎消息，设置为 YES 将在下一次通知推送时推送一条 Hello World 通知来告知开始工作</p>
+    <hr></hr>
+    <p>group</p>
+    <p>通知分组，iOS12 后的新功能（好像吧），用于区分与其他推送到的消息</p>
+    <hr></hr>
+    <p>is_archive</p>
+    <p>保存通知消息，若设置为 YES，将会在 bark 软件的历史消息中可见</p>
+    <hr></hr>
+    <p>sound</p>
+    <p>通知声音，可在 Bark app 中找到喜欢的声音进行替换</p>
+    <hr></hr>
+    <p>level</p>
+    <p>通知级别</p>
+    <p>active 为默认值，系统接收到消息立即亮屏显示通知</p>
+    <p>timeSensitive 时效性通知，可在专注状态下显示通知</p>
+    <p>passive 仅将通知添加到通知列表，不会进行亮屏提醒</p>
+    <hr></hr>
+    <p>title 与 body</p>
+    <p>title 为通知标题，body 为通知内容，他们下方都有三个可设置的值，分别为 cache（已缓存到本地），del（可能已下架），up（发现变更），可以自由搭配，他们中还有变量，通知时会对其进行文本替换，变量如下所示</p>
+    <p>app_name</p>
+    <p>应用名称</p>
+    <p>app_bundle</p>
+    <p>应用标识符</p>
+    <p>app_id</p>
+    <p>应用 id</p>
+    <p>app_price</p>
+    <p>应用价格</p>
+    <hr></hr>
+    <a href="cac.html" target="_self">返回首页</a>
+  </body>
+</html>

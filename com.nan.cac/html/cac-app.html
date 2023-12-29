@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cac.css">
+    <title>cac 配置文件添加要检查的软件</title>
+  </head>
+  <body>
+    <h1>Check AppStore change 配置文件添加要检查的软件</h1>
+    <h2>一、获取软件分享链接</h2>
+    <p>1.请先从 App Store 中找到想要检查的软件并打开软件介绍界面</p>
+    <p>2.点击右上角的分享按钮，并点击“拷贝链接”</p>
+    <picture>
+      <source srcset="images/image_2_1_2_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_1_2_light.png" alt="">
+    </picture>
+    <h2>二、添加到 cac 的配置文件中</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p1>&lt;bark_data&gt;/Library/Preferences/com.nan.cac.plist</p1>
+    <p>&lt;bark_data&gt; 即 Bark 存放数据的文件夹</p>
+    <p>2.找到 app，然后点击右侧的 i</p>
+    <picture>
+      <source srcset="images/image_2_2_2_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_2_2_light.png" alt="">
+    </picture>
+    <p>3.点击 Add item</p>
+    <picture>
+      <source srcset="images/image_2_2_3_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_2_3_light.png" alt="">
+    </picture>
+    <p>4.点开新出现的 item，点击类型，修改为 Dictionary</p>
+    <picture>
+      <source srcset="images/image_2_2_4_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_2_4_light.png" alt="">
+    </picture>
+    <p>5.再次点击下方的 Add item</p>
+    <p>6.点开新出现的 item，将名称设置为 enable，类型设置为 Boolean，下方值设置为 YES</p>
+    <picture>
+      <source srcset="images/image_2_2_6_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_2_6_light.png" alt="">
+    </picture>
+    <p>7.接下来返回上一页，并点击 Add item</p>
+    <p>8.点开新出现的 item，将名称设置为 url，类型不用变，下面的值粘贴刚刚从 AppStore 拷贝的链接</p>
+    <picture>
+      <source srcset="images/image_2_2_8_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_2_2_8_light.png" alt="">
+    </picture>
+    <p>9.保存配置文件</p>
+    <hr></hr>
+    <a href="cac.html" target="_self">返回首页</a>
+  </body>
+</html>
