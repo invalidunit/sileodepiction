@@ -26,21 +26,21 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "检查软件源变更然后使用 bark 推送的守护进程，每 1 小时由 launch 拉起来检测一次变更，其他时间完全没启动，主要自用",
+                    "markdown": "检查 AppStore 中软件变更然后使用 bark 推送变更通知的守护进程，每 1 小时由 launch 拉起来检测一次变更，其他时间完全没启动，主要自用",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "配置完 key 后可以重装此包来开始工作，首次使用将会推送一个 Hello World 的通知来提醒你已经开始工作了，若配置文件中没有 key 将不会在安装完成后拉起守护进程",
+                    "markdown": "配置完 key 后可以重装此包来马上开始工作，首次使用将会推送一个 Hello World 的通知来提醒你已经开始工作了",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "可点击下方来查看怎么配置通知推送和配置 crc 检测哪些源。当然，Procursus，Bingner，BigBoss 这些发行版软件源统统不支持",
+                    "markdown": "可点击下方来查看怎么配置 cac",
                     "useRawFormat": true
                 },
                 {
-                    "title":"查看 crc 配置说明（待更新，旧版教程不完全适应新版配置）",
+                    "title":"查看 cac 配置说明",
                     "action":"https://invalidunit.github.io/sileodepiction/com.nan.crc/crc.html",
                     "class":"DepictionTableButtonView"
                 },
@@ -51,15 +51,15 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.crc/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.cac/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.crc/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.cac/Screenshot_02.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.crc/Screenshot_03.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.cac/Screenshot_03.png"
                         }
                     ]
                 },
@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.4",
+                    "text": "0.1.0",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 17 日",
+                    "text": "2024 年 01 月 01 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -116,90 +116,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.2.4",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "回滚上版本的修复并改进其余对比部分来解决同版本更新推送问题",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.2.3",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "尝试修复过滤器设置为 all 时可能会错误的检测到同更新例如 0.1.0 -> 0.1.0，现在设置为 all 时将会直接移除本地缓存中的 Architecture",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.2.2",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "新增功能：</br> 1：architecture 过滤，可过滤无根包或者有根包，可设置为：</br> auto：自动匹配当前越狱环境</br> iphoneos-arm：过滤为有根越狱包</br> iphoneos-arm64：过滤为无根越狱包</br> iphoneos-arm64e：过滤为隐根越狱包（RootHide）</br> all：禁用过滤，将输出所有包</br> 新用户默认为 auto ，自动匹配当前越狱环境，老用户请自己手动在配置文件中增加 filter_architecture，并设置为上面的值</br> 2：新增使用包名通知，可在本地缓存可信的情况下通过查询缓存的 name 来推送通知</br> 新用户默认禁用，老用户请手动在在配置文件中增加 use_name，启用请将其修改为 true</br> </br> 优化：</br> 1：重写对比部分，现在对比出包变更的代码将更高效</br> 2：改进缓存机制，现在 crc 本地缓存可以缓存更多信息，包括 package（包 id），name（包名），version（版本号），architecture（包架构），其中包名可能不可信，若启用包名通知，且本地缓存不可信时，将会继续沿用包 id 来进行通知推送</br> 3：增加 curl 超时机制，防止网差的时候 curl 花费大量时间经常下载，目前写死为 30 秒</br> 4：若非用户手动执行，而是由守护进程拉起，将等待 1 分钟后再执行，防止刚重启完空间没网",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.4",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "修复上个版本使用自定义图片时候无法正确获取的问题</br> </br> 增加每次安装时移除 Bark 图片缓存，若发现推送横幅中的图片与 Sileo 中看到的有出入也可以重装此包来移除 Bark 图片缓存（iOS15+ 功能）</br> </br> 更新支持 roothide，同时配置文件与缓存已修改到 Bark app 的数据目录，若安装过老版本请手动迁移配置文件到新路径</br> 新配置文件路径：</br> bark_data/Library/Preferences/com.nan.crc.plist",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.3",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "好像更糟，回滚了",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.2",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "微小的修复，某些情况下 bark 无法正确处理管道传递的数据，现在丢弃管道用法，使用 bark -2 来解决这个问题",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.1",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "移除防止守护进程同时和用户同时运行的保护机制，概率小到基本没有，而且就算这么巧那么在下一个 1 小时来之后也会恢复正常缓存，而且目前这个检查的工作好像有点不正常",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
                     "title": "0.1.0",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "初始版本，初始大屎山",
+                    "markdown": "初始版本，初始大屎山。",
                     "useRawFormat": true
                 }
             ]
