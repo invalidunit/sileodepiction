@@ -91,17 +91,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "0.1.1",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "12.0 - 15.9",
+                    "text": "12.0 - 17.9",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 01 月 01 日",
+                    "text": "2024 年 01 月 10 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -114,6 +114,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "解决新版 uicache 输出两条路径的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
