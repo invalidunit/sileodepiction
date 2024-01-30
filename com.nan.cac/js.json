@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "0.1.2",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 01 月 10 日",
+                    "text": "2024 年 01 月 30 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -116,13 +116,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1.0",
+                    "title": "0.1.2",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "解决新版 uicache 输出两条路径的问题",
+                    "markdown": "加入自己的小守护进程，仅作为 Bootstrap 无法正常使用 launchctl 的变通方法，在检测环境为 Bootstrap 时启动，重启后需要手动重装来拉起</br> 不过可能时间不这么准，用 shell 实现的守护进程会在手机睡眠时被冻结导致停顿时间可能超过 1 小时，较高概率在不充电并锁屏时被冻结，但是这对电量消耗来说应该是好事",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "解决新版 uicache 输出两条路径导致无法正常运行的问题",
                     "useRawFormat": true
                 },
                 {
