@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.2",
+                    "text": "0.1.3",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 01 月 30 日",
+                    "text": "2024 年 02 月 01 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -114,6 +114,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "在软件之间插入随机时间，大概 0-29 秒，防止短时间内太过频繁访问</br> 将 Bootstrap 下守护进程由 mobile 权限修改为 root，貌似由 dpkg 拉起的 mobile 进程比较容易被系统干掉，我手动 ssh 运行的话倒没什么问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.2",

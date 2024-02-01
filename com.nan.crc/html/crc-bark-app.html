@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="crc.css">
+    <title>crc 配置文件独立配置推送参数</title>
+  </head>
+  <body>
+    <h1>Check repo change 配置文件独立配置推送参数</h1>
+    <h2>独立配置优先级比全局配置要高，独立配置可以覆盖掉全局配置</h2>
+    <h2>例如你可以某个源的通知提示音与其他源不一致，一听就能听出来</h2>
+    <h2>独立配置与全局配置基本一致，除了推送 key 与推送服务器不会覆盖全局配置以外</h2>
+    <h2>配置文件中预留了演示配置，可自行模仿</h2>
+    <p>1.从 Filza 中打开文件</p>
+    <p1>&lt;bark_data&gt;/Library/Preferences/com.nan.crc.plist</p1>
+    <p>&lt;bark_data&gt; 即 Bark 存放数据的文件夹</p>
+    <p>2.找到 app，然后点击左边箭头来展开子项目</p>
+    <p>3.找到 app 中想独立配置的 item 项目，点击 item 右边的 i</p>
+    <p>4.单击下方的 Add item</p>
+    <p>5.名称修改为 bark，类型修改为 Dictionary</p>
+    <p>6.点击下方 Add item</p>
+    <p>7.按照全局配置的样子进行配置以覆盖全局配置</p>
+    <picture>
+      <source srcset="images/image_4_0_7_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/image_4_0_7_light.png" alt="">
+    </picture>
+    <hr></hr>
+    <p>Hello_World</p>
+    <p>测试的欢迎消息，设置为 YES 将在下一次通知推送时推送一条 Hello World 通知来告知开始工作</p>
+    <hr></hr>
+    <p>group</p>
+    <p>通知分组，iOS12 后的新功能（好像吧），用于区分与其他推送到的消息</p>
+    <hr></hr>
+    <p>is_archive</p>
+    <p>保存通知消息，若设置为 YES，将会在 bark 软件的历史消息中可见</p>
+    <hr></hr>
+    <p>sound</p>
+    <p>通知声音，可在 Bark app 中找到喜欢的声音进行替换</p>
+    <hr></hr>
+    <p>level</p>
+    <p>通知级别</p>
+    <p>active 为默认值，系统接收到消息立即亮屏显示通知</p>
+    <p>timeSensitive 时效性通知，可在专注状态下显示通知</p>
+    <p>passive 仅将通知添加到通知列表，不会进行亮屏提醒</p>
+    <hr></hr>
+    <p>title</p>
+    <p>通知标题</p>
+    <hr></hr>
+    <p>body</p>
+    <p>body 为通知内容，在他的下方都有三个可设置的值，分别为 add（已新增），del（已移除），up（已更新），需要分别修改，会在推送的时候用作通知内容头部</p>
+    <hr></hr>
+    <a href="crc.html" target="_self">返回首页</a>
+  </body>
+</html>
