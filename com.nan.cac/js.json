@@ -122,7 +122,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "移除在 Sileo 安装完成后自动拉起守护进程，因为由 Sileo 拉起的守护进程在 Sileo 关闭后没多久守护进程也会被系统终止</br> Bootstrap 用户请手动在 openssh 中运行</br> /usr/libexec/cac/cac-daemon</br> 来拉起守护进程",
+                    "markdown": "移除在 Sileo 安装完成后自动拉起守护进程（仅 Bootstrap），因为由 Sileo 拉起的守护进程在 Sileo 关闭后没多久守护进程也会被系统终止</br> Bootstrap 用户请手动在 openssh 中运行</br> /usr/libexec/cac/cac-daemon</br> 来拉起守护进程",
                     "useRawFormat": true
                 },
                 {
