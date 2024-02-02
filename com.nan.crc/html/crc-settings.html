@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="crc.css">
+    <title>crc 配置文件其他设置</title>
+  </head>
+  <body>
+    <h1>Check repo change 配置文件其他设置</h1>
+    <h2>包过滤（architecture）</h2>
+    <p>用于过滤无根包或者有根包，防止不属于自己环境的包推送打扰自己。</p>
+    <p>可设置为：</p>
+    <p>auto：自动匹配当前越狱环境</p>
+    <p>iphoneos-arm：过滤为有根越狱包</p>
+    <p>iphoneos-arm64：过滤为无根越狱包</p>
+    <p>iphoneos-arm64e：过滤为隐根越狱包（RootHide）</p>
+    <p>all：禁用过滤，将输出所有包</p>
+    <p>默认情况下为 auto，将根据当前越狱的环境来进行匹配，防止其他类型的包更新后知道他更新了但是用不了的难受</p>
+    <p>更改请在配置文件中找到 filter_architecture，并设置为对应值</p>
+    <hr></hr>
+    <h2>包名通知</h2>
+    <p>可以在通知时尝试使用缓存中的包名，而不是包 id 进行通知</p>
+    <p>可能对某些小白比较友好吧</p>
+    <p>但是因为使用的方法更偏向速度，所以有些源上架了不包含包名的包时，会直接打乱我整张缓存表</p>
+    <p>所以加上了检测，如果发现这种情况则这个源的缓存不可信，继续使用包 id 进行通知</p>
+    <p>启用请在配置文件中找到 use_name，并设置为 YES</p>
+    <hr></hr>
+    <a href="crc.html" target="_self">返回首页</a>
+  </body>
+</html>

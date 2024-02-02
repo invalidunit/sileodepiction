@@ -40,8 +40,8 @@
                     "useRawFormat": true
                 },
                 {
-                    "title":"查看 crc 配置说明（待更新，旧版教程不完全适应新版配置）",
-                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.crc/crc.html",
+                    "title":"查看 crc 配置说明",
+                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.crc/html/crc.html",
                     "class":"DepictionTableButtonView"
                 },
                 {
