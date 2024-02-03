@@ -22,7 +22,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "暂不支持 Dopamine 与 xina",
+                    "title": "暂不支持 Dopamine 与 xina，但是 Bootstrap 好像可以",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
