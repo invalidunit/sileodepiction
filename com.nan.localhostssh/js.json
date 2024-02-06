@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.7",
+                    "text": "0.3.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "7.0 - 14.9",
+                    "text": "6.0 - 17.9",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2022 年 09 月 13 日",
+                    "text": "2024 年 02 月 06 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新支持 Bootstrap，移除旧版 ssh 类型检查，直接将两种方法同时写入 </br> </br> Bootstrap 安装后请手动在 Bootstrapp 的设置中关闭 OpenSSH 开关再打开，因为没权限直接重启 OpenSSH 进程",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.7",
