@@ -56,17 +56,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.5",
+                    "text": "0.2.6",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "6.0 - 15.9",
+                    "text": "6.0 - 17.9",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 11 日",
+                    "text": "2024 年 02 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "优化下载 deb 部分，精简掉不必要的内容并加入允许重定向，某些源会使用 302 重定向",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.5",
