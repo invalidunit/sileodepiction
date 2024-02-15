@@ -81,6 +81,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.2.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "移除之前忘删的语句",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.2.6",
                     "useBoldText": true,
                     "useBottomMargin": false
