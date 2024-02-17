@@ -62,17 +62,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.6",
+                    "text": "0.4.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "15.0 - 15.4.1",
+                    "text": "15.0 - 16.5",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 11 月 14 日",
+                    "text": "2024 年 02 月 17 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +85,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新包含的 jbctl 版本，此版本 jbctl 只支持 Dopamine 2.0 或更高，低版本自己降级</br> 更新自动挂载失败处理逻辑，解决反复尝试挂载后重启用户空间",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.6",
