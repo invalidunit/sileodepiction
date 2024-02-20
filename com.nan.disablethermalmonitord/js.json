@@ -97,7 +97,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "初始版本，副作用等待各位大佬发现",
+                    "markdown": "初始版本</br> 已知问题：</br> 低电量不降频</br> 设置-电池 电池容量信息不可用</br> 可能有更多副作用等待各位大佬发现",
                     "useRawFormat": true
                 }
             ]
