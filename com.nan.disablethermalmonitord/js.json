@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由 Aldebaran 与无尽伤痛都锁进黑夜发现",
+                    "markdown": "阻止 thermalmonitord 守护进程，应该可以防降频，防温控暗屏，由 Aldebaran 与无尽伤痛都锁进黑夜发现</br> </br> A15 及更高存在 SOC 内部温控，关闭此守护进程不能完全达到效果",
                     "useRawFormat": true
                 },
                 {
