@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由无尽伤痛都锁进黑夜发现",
+                    "markdown": "阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由 Aldebaran 与无尽伤痛都锁进黑夜发现",
                     "useRawFormat": true
                 },
                 {
@@ -51,13 +51,18 @@
                 },
                 {
                     "class": "DepictionTableTextView",
+                    "text": "Aldebaran",
+                    "title": "方法作者 1"
+                },
+                {
+                    "class": "DepictionTableTextView",
                     "text": "无尽伤痛都锁进黑夜",
-                    "title": "方法作者"
+                    "title": "方法作者 2"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "zhaonan",
-                    "title": "作者"
+                    "title": "脚本作者"
                 },
                 {
                     "class": "DepictionTableTextView",

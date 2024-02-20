@@ -10,9 +10,8 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "将越狱的 tmp 目录指向 /tmp 以防止日渐增加的垃圾缓存文件",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "markdown": "将越狱的 tmp 目录指向 /tmp 以防止日渐增加的垃圾缓存文件",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
