@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.1",
+                    "text": "0.3.2",
                     "title": "最新版本"
                 },
                 {
@@ -82,13 +82,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.3.1",
+                    "title": "0.3.2",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "修复 rootless 安装会有报错的问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "尝试修复 rootless 安装会有报错的问题",
                     "useRawFormat": true
                 },
                 {
