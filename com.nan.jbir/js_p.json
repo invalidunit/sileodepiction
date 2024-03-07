@@ -81,6 +81,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复奇怪的地方",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.0",
                     "useBoldText": true,
                     "useBottomMargin": false
