@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.6",
+                    "text": "0.2.8",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 02 月 14 日",
+                    "text": "2024 年 03 月 16 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复读取 control 时如果遇到 windows 换行符 \\r 不过滤的问题，这可以解决在线下载 deb 后包名有奇怪的换行问题</br> 修复提取本地 deb 时候对包 id 没有进行大小写验证的问题，这可以解决导致提取成功输出了 deb，但是 deb 内没有文件的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.7",
