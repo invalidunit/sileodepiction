@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.8",
+                    "text": "0.2.9",
                     "title": "最新版本"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复下载 deb 时，名字相近，但错误并且没指定版本号时依然会尝试下载的问题（虽然依然会下载错误）</br> </br> 例如下载 com.nan.deb 但是输入成了 com.nan.deb2",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.8",
