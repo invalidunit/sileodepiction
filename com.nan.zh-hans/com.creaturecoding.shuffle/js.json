@@ -78,8 +78,9 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "title":"添加作者源（请选择右下角 Safari 打开）",
+                    "title":"点击添加作者源",
                     "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.creaturecoding.shuffle/meta.html",
+                    "openExternal": 1,
                     "class":"DepictionTableButtonView"
                 }
             ]
