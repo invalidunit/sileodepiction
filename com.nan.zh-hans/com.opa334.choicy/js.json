@@ -79,7 +79,7 @@
                 },
                 {
                     "title":"点击添加作者源",
-                    "action":"sileo://source/https://opa334.github.io/",
+                    "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/meta.html",
                     "openExternal": 1,
                     "class":"DepictionTableButtonView"
                 }
