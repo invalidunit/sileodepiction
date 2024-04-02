@@ -80,6 +80,7 @@
                 {
                     "title":"添加作者源（请选择右下角 Safari 打开）",
                     "action":"https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/meta.html",
+                    "openExternal": 1,
                     "class":"DepictionTableButtonView"
                 }
             ]
