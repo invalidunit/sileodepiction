@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "markdown": "将越狱的 tmp 目录指向 /tmp 以防止日渐增加的垃圾缓存文件",
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将越狱的 tmp 目录指向 /tmp 以防止日渐增加的垃圾缓存文件。</br> </br> Tips: 系统自带的 /tmp 重启后里面文件都会被移除",
                     "useRawFormat": true
                 },
                 {
