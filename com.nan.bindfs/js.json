@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.1",
+                    "text": "0.5.0",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 02 月 17 日",
+                    "text": "2024 年 08 月 07 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +85,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新包含的 jbctl 版本</br> 新增自定义挂载根，需要手动在配置文件内改，新用户将默认挂载到 .jbroot/bindfs 目录下，老用户想玩也可以自己改配置文件</br> 新增始终往 .jbroot 下写入软连接 .bindfs，此软连接将始终指向自定义挂载根，方便其他插件改文件用，例如本源那个改启动图标的",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.1",
