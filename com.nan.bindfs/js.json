@@ -30,6 +30,12 @@
                     ]
                 },
                 {
+                    "class": "DepictionSubheaderView",
+                    "title": "Dopamine 1.x 自己降级 0.4.x 之前的版本",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 },
@@ -62,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.0",
+                    "text": "0.5.1",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 07 日",
+                    "text": "2024 年 08 月 09 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +91,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复异常错误退出标识可能导致挂载失败的同时反复重启空间</br> 修复 0.5.0 时允许使用相对路径，现在将获取绝对路径后再继续操作</br> 修复针对 0.5.0 之前版本的配置文件更新迁移的错误路径修复",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.0",
