@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.2",
+                    "text": "0.5.3",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 11 日",
+                    "text": "2024 年 08 月 13 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +85,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复当设置自定义挂载根非处于越狱目录下时，错误的循环路径判断",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.2",
