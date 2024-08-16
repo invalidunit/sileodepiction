@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.3",
+                    "text": "0.5.4",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 13 日",
+                    "text": "2024 年 08 月 16 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +85,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "再次修复错误的路径判断，解决 .jbroot 路径错误解析问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.3",
