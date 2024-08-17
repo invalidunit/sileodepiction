@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.4",
+                    "text": "0.5.5",
                     "title": "最新版本"
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 16 日",
+                    "text": "2024 年 08 月 17 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +85,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复老用户成功迁移后虽然能正确读取，但是实际路径异常的问题</br> 修复 rootless 下使用 -s 的报错信息，虽然并不影响",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.4",
