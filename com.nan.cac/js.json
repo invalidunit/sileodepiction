@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.6",
+                    "text": "0.1.9",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 02 月 03 日",
+                    "text": "2024 年 09 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -114,6 +114,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "改进版本号缓存机制，从之前直接使用返回的网页中附带的版本号改为，同时获取网页中附带的版本号与 itunes api 中的版本号，并且经过对比两者后使用较新的版本号作为本地缓存，应修复因为苹果 cdn 异常导致网页获取的版本号反复升级降级的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.6",
