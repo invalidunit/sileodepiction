@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.9",
+                    "text": "0.2.0",
                     "title": "最新版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 04 月 06 日",
+                    "text": "2024 年 09 月 16 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -96,6 +96,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1：改进多 key 解析部分，现在 zsh 不再需要 </br> setopt shwordsplit</br> 2：改进使用 base64 部分，解决 dash 下不支持 alias 用法导致的奇怪问题，现在将直接不使用 base64 -w 0，而是使用 tr -d '\n' 直接移除多余的换行，应与 base64 -w 0 后效果一致</br> 3：改进单 key 输出行为，现在只有多 key 才会在 curl 输出前展示简写的 key 以辨别 curl 输出来自哪个 key，而单 key 会直接输出 curl 打印</br> 4：若设备有安装 jo，则在不指定的情况下默认使用 POST 方法，而如果没安装 jo，则使用 GET 方法",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.9",
