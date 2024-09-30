@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.5",
+                    "text": "0.2.7",
                     "title": "最新版本"
                 },
                 {
@@ -96,6 +96,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复安装了 jo 也自动添加 --not-use-json 的问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1：增加 POST 下不使用 json 的支持，只需使用 --not-use-json</br> 2：不安装 jo 将不自动切换为使用 GET 而是使用非 json 的 POST 方法</br> 3：优化推送加密部分逻辑",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.5",
