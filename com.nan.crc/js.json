@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
+    "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top_0.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -43,6 +43,11 @@
                     "title":"查看 crc 配置说明",
                     "action":"https://invalidunit.github.io/sileodepiction/com.nan.crc/html/crc.html",
                     "class":"DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips: Bootstrap 环境请手动安装 sshd wrapper",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -91,7 +96,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.8",
+                    "text": "0.2.9",
                     "title": "最新版本"
                 },
                 {
@@ -101,7 +106,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 09 月 14 日",
+                    "text": "2024 年 10 月 02 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -114,6 +119,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "适配 sshd wrapper，将无需手动拉起守护进程",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.8",
