@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "通过篡改 sshd 启动过程来拉起更多进程启动，将会在启动 /etc/rc.d/ 下所有文件后将进程还给 sshd",
+                    "markdown": "通过篡改 sshd 启动过程来拉起更多进程启动，将会在启动 /etc/rc.d/ 下所有文件后将进程还给 sshd</br> </br> Tips: 仅用于 Bootstrap",
                     "useRawFormat": true
                 },
                 {
