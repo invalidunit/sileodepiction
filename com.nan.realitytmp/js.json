@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.2",
+                    "text": "0.2.3",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 05 日",
+                    "text": "2024 年 10 月 02 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Bootstrap 版现在将依赖 sshd wrapper，需要手动安装，这将提供与普通越狱类似的体验，在 /tmp 下新建随机名文件夹来作为 jb tmp，而不是直接将 jb tmp 直接指向系统的 /tmp",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.2",
