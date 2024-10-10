@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.1",
+                    "text": "0.3.0",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 02 月 06 日",
+                    "text": "2024 年 10 月 10 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修改保存逻辑，从原本直接 mv 原文件走修改为创建硬链接，速度快的同时不影响 apt 原有逻辑",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.1",
