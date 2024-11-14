@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.8",
+                    "text": "0.2.9",
                     "title": "最新版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 10 月 17 日",
+                    "text": "2024 年 11 月 13 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -98,13 +98,24 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.2.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增重要警告支持</br> 目前仅出现在 TF 版本 1.4.2(2)中",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.2.8",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复了不手动指定使用POST还是GET的时候不会自动选择的问题",
+                    "markdown": "修复了不手动指定使用 POST 还是 GET 的时候不会自动选择的问题",
                     "useRawFormat": true
                 },
                 {
