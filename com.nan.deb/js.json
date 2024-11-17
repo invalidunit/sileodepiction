@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "deb 工具，普通(批量)解压，普通(批量)打包，deb 信息查看，提取已安装软件包，在线下载",
+                    "markdown": "deb 工具，普通(批量)解压，普通(批量)打包，deb 信息查看，提取已安装软件包",
                     "useRawFormat": true
                 },
                 {
@@ -87,7 +87,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "移除下载 deb，后面分成独立的另外一个包 debd",
+                    "markdown": "移除下载 deb 功能，分离成独立的另外一个包 debd",
                     "useRawFormat": true
                 },
                 {
