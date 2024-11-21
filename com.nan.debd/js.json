@@ -56,17 +56,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "0.2.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "6.0 - 17.9",
-                    "title": "支持系统范围"
+                    "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 11 月 17 日",
+                    "text": "2024 年 11 月 21 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增只输入源的支持，只输入源将会打印源中所有 Package，请输入对应 Package 前面的数字来选择需要下载的包",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复错误的帮助信息排版",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
