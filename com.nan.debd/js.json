@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.0",
+                    "text": "0.2.1",
                     "title": "最新版本"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 11 月 21 日",
+                    "text": "2024 年 12 月 11 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.修改请求头，补全下载文件时提供的设备信息</br> 2.修改 X-Unique-ID 生成规则，不会在下载源列表与下载 deb 包时使用不同 X-Unique-ID</br> </br> 有了上面的修改应该可以正常下载 yourepo 的 deb",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.0",
