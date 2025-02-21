@@ -1,3 +1,3 @@
 # SileoDepiction
 
-	A repository for sileo descriptions
+	A repository for sileo descriptionss
