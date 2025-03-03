@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.0",
+                    "text": "0.3.1",
                     "title": "最新版本"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 03 月 01 日",
+                    "text": "2025 年 03 月 03 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复某些奇葩源牛逼情况下导致下载的包没有自动选定最新版本的问题</br> 另外修改判断是否下载成功的方法，现在可以纯 mobile 身份运行应该",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.0",
