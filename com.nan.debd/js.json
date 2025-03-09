@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.4",
+                    "text": "0.3.5",
                     "title": "最新版本"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 03 月 04 日",
+                    "text": "2025 年 03 月 09 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.引入 jq 来进行更好的 url 编码</br> 2.支持了不指定包名时的架构过滤</br> 3.优化写法",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.4",
