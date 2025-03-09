@@ -102,7 +102,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "某些源下载路径包含空格导致下载直接报错的问题",
+                    "markdown": "修复某些源下载路径包含空格导致下载直接报错的问题",
                     "useRawFormat": true
                 },
                 {
@@ -124,7 +124,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "新增自动转小写再识别的功能，可用 --not-convert-lowercase 禁用，主要用于照顾 Sileo 分享出来的（Sileo 会自动大写转小写）</br> 修复找不到包的报错没有正常显示的问题",
+                    "markdown": "新增自动转小写再识别的功能，可用</br> --not-convert-lowercase</br> 禁用，主要用于照顾 Sileo 分享出来的（Sileo 会自动大写转小写）</br> 修复找不到包的报错没有正常显示的问题",
                     "useRawFormat": true
                 },
                 {
