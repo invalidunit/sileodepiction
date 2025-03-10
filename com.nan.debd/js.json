@@ -146,7 +146,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复某些奇葩源牛逼情况下导致下载的包没有自动选定最新版本的问题</br> 另外修改判断是否下载成功的方法，现在可以纯 mobile 身份运行应该",
+                    "markdown": "修复某些奇葩源牛逼情况下导致下载时没有自动选定最新版本的问题</br> 另外修改判断是否下载成功的方法，现在可以以纯 mobile 身份运行",
                     "useRawFormat": true
                 },
                 {
