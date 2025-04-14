@@ -10,23 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "通过微小的修改让无根包可以安装在有根设备上</br> </br> Filza 中长按 deb，拉到最下面，点击脚本，然后选 irld，重打包后的 deb 会在原文件旁</br> 终端使用 irld deb 路径来输出新 deb，或者使用 irld --install deb 路径来修改 deb 并安装",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 1
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 1
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Tips: 大部分注入系统的插件基本是用不了的，但是注入应用的插件可能可以通过这种方式直接工作",
+                    "markdown": "通过微小的修改让无根包可以安装在有根设备上</br> </br> </br> Filza 中长按 deb，拉到最下面，点击脚本，然后选 irld，重打包后的 deb 会在原文件旁</br> </br> 终端使用 irld deb 路径来输出新 deb，或者使用 irld --install deb 路径来修改 deb 并安装</br> </br> </br> Tips: 大部分注入系统的插件基本是用不了的，但是注入应用的插件可能可以通过这种方式直接工作",
                     "useRawFormat": true
                 },
                 {
