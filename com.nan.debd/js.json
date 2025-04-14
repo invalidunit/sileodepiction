@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.6",
+                    "text": "0.3.7",
                     "title": "最新版本"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 03 月 10 日",
+                    "text": "2025 年 04 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "增加打印帮助时关于 -S 的提示，修复找不到 Packages 文件时不打印报错的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.6",
