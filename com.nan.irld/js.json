@@ -14,6 +14,22 @@
                     "useRawFormat": true
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips: 大部分注入系统的插件基本是用不了的，但是注入应用的插件可能可以通过这种方式直接工作",
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -56,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "0.1.1",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +82,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 02 月 15 日",
+                    "text": "2025 年 04 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +95,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "增加移除 deb 内声明的版本限制，有些声明了 iOS15 可用的包实际上 iOS14 上也能发挥效果",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
