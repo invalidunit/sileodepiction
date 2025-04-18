@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.1",
+                    "text": "0.1.2",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 04 月 14 日",
+                    "text": "2025 年 04 月 18 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +79,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.少些了个依赖，装上了</br> 2.修复了如果用户已经创建 /var/jb 处理会异常的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.1",
