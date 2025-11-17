@@ -60,17 +60,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.7",
+                    "text": "0.4.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "6.0 - 17.9",
+                    "text": "6.0 - 26.9",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 04 月 14 日",
+                    "text": "2025 年 11 月 17 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新了随机字符生成方式，应该 mac 上也能跑",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.7",

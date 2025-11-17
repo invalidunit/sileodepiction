@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.0",
+                    "text": "0.6.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "11.0 - 15.9",
+                    "text": "11.0 - 18.9",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 06 月 22 日",
+                    "text": "2025 年 11 月 17 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.6.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "恢复检查第一张快照的名字，不过如果没有安装依赖将会使用默认名 orig-fs",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.0",
