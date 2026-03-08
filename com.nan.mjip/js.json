@@ -10,7 +10,28 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "让 Dopamine 越狱后越狱 app 图标更快出现，或是解决某些设备越狱后必须使用 Dopamine 手动刷新越狱应用才能在桌面看到越狱 app 的问题，同时将 TrollStore 安装的应用的应用类型重设为 System 并注销",
+                    "markdown": "通过修改越狱 App 储存路径来达到类似 RootHide 重启后 App 还在桌面的效果，这将加速平时越狱后看见越狱 App 的速度，同时重启后概率掉权限问题也可能可以稍微缓解",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 1
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips: 安装和卸载时请尽量不要和其他插件一起安装，因为 Sileo 会闪退，最好只单独安装或者卸载这个插件",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "卸载的话需要卸载两次，第一次拉起后做清理，第二次才允许正常卸载",
                     "useRawFormat": true
                 },
                 {
@@ -66,7 +87,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 03 月 07 日",
+                    "text": "2026 年 03 月 08 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,17 +100,6 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "0.1.1",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "修复奇怪的地方",
-                    "useRawFormat": true
-                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.1.0",
