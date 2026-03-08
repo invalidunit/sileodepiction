@@ -26,7 +26,17 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Tips: 安装和卸载时请尽量不要和其他插件一起安装，因为 Sileo 会闪退，最好只单独安装或者卸载这个插件",
+                    "markdown": "Tips: ",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "安装和卸载时请尽量不要和其他插件一起安装，因为 Sileo 会闪退，最好只单独安装或者卸载这个插件",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "清除越狱的时候请先手动卸载这个，要不然会有部分残留，实在没清可以自己去 /var/containers/Bundle/Application/ 删除 .dopamine-xxxxxx",
                     "useRawFormat": true
                 },
                 {
