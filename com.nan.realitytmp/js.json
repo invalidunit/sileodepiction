@@ -14,6 +14,11 @@
                     "useRawFormat": true
                 },
                 {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips: Bootstrap 用户尽量不要安装，会导致 Bootstrap 越狱缓存清理",
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
@@ -56,7 +61,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.0",
+                    "text": "0.3.1",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +71,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 03 月 08 日",
+                    "text": "2026 年 03 月 09 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -79,6 +84,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "增加锁，现在整个临时文件夹无法被轻易删除",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.0",
