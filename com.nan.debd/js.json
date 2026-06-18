@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.0",
+                    "text": "0.4.2",
                     "title": "最新版本"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 11 月 17 日",
+                    "text": "2026 年 06 月 18 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -83,6 +83,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更新了 X-Unique-ID 的生成逻辑",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "完全修复了 mac 上运行会报错的问题",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.0",
