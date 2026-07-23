@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://invalidunit.github.io/sileodepiction/Default/top.png",
+    "headerImage": "https://invalidunit.github.io/sileodepiction/default/top.png",
     "tintColor": "#59AEBC",
     "minVersion": "0.3",
     "tabs": [
@@ -21,23 +21,23 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/Screenshot_01.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/Screenshot_02.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/screenshot_02.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/Screenshot_03.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/screenshot_03.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/Screenshot_04.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/screenshot_04.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/Screenshot_05.png"
+                            "url": "https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/org.coolstar.sileo/screenshot_05.png"
                         }
                     ]
                 },
