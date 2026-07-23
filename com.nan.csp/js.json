@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "方便的修改 OpenSSH 端口工具",
+                    "title": "方便修改 OpenSSH 端口的工具",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
