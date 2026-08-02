@@ -9,10 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "以 bindfs 挂载文件夹的 cli 工具</br> </br> Tips: 0.5.0 版本开始新用户挂载路径为 .jbroot/bindfs，可修改配置文件自定义挂载根",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "以 bindfs 挂载文件夹的 cli 工具",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips: 0.5.0 版本开始新用户挂载路径为 .jbroot/bindfs，可修改配置文件自定义挂载根，另外会始终生成 .jbroot/.bindfs 软链接指向自定义挂载根",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -58,21 +62,21 @@
                 {
                     "class": "DepictionTableTextView",
                     "text": "zhaonan",
-                    "title": "自动挂载作者"
+                    "title": "自动挂载脚本作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.5.5",
+                    "text": "0.6.0",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "15.0 - 16.5",
+                    "text": "15.0 - 17.3.1",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 17 日",
+                    "text": "2026 年 08 月 02 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -85,6 +89,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.6.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "删除无用代码，去掉一些死变量，略微优化自动挂载速度",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.5",
