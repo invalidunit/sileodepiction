@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "通过 Filza 脚本启动一个后台压缩进程，可在启动后在多任务划掉 Filza 后台而不终止压缩，并在压缩结束后通过通知横幅提醒已结束，使用只需长按文件或文件夹然后点击使用脚本",
+                    "title": "通过 Filza 脚本启动一个后台压缩进程，可启动后在多任务划掉 Filza 后台而不终止压缩，并在压缩结束后通过通知横幅提醒已结束，使用只需长按文件或文件夹然后点击使用脚本",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
