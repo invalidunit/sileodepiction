@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "可被大部分插件安装触发，执行 dpkg-fill",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "可被大部分插件安装触发，执行 dpkg-fill",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

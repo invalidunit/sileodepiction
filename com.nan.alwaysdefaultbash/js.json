@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "将 sh 指向 bash",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将 sh 指向 bash",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -30,10 +29,9 @@
                     ]
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "主要解决国内垃圾搬运源经常中断",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "主要解决国内垃圾搬运源经常中断",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionSpacerView",

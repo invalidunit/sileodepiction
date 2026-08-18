@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "进程查看器",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "进程查看器",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

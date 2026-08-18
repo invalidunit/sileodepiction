@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "为 BioProtect XS 提供简体中文",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "为 BioProtect XS 提供简体中文",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

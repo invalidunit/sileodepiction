@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "启用监督模式",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "启用监督模式",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -33,10 +32,9 @@
                     "class":"DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "安装后，可在以下网站安装描述文件",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "安装后，可在以下网站安装描述文件",
+                    "useRawFormat": true
                 },
                 {
                     "title": "Supervised",

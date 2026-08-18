@@ -9,16 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "deb 扩展，在 Filza 中直接通过脚本使用",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "直接包含文件夹下的多个文件夹",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "deb 扩展，在 Filza 中直接通过脚本使用</br> 直接包含文件夹下的多个文件夹",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

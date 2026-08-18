@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "仅为 iOS 本地 SSH 访问启用 2222 端口",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "仅为 iOS 本地 SSH 访问启用 2222 端口",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "修补因缺少维护者和描述的报错信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修补因缺少维护者和描述的报错信息",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

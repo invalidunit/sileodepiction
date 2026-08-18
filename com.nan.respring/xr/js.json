@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "漂亮的 XR 注销动画",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "漂亮的 XR 注销动画",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

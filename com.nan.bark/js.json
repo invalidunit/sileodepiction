@@ -25,10 +25,9 @@
                     "spacing": 1
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "用于向 bark 服务器推送自定义消息的 cli 脚本",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "用于向 bark 服务器推送自定义消息的 cli 脚本",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

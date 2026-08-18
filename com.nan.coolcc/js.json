@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "很酷的线条轮廓控制中心",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "很酷的线条轮廓控制中心",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

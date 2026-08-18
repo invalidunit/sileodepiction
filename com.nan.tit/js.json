@@ -25,10 +25,9 @@
                     "spacing": 1
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Tips 的外壳，Taurine 的内在",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Tips 的外壳，Taurine 的内在",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionSpacerView",

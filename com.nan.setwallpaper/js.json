@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "为浅色外观和深色外观分别自定义壁纸",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "为浅色外观和深色外观分别自定义壁纸",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

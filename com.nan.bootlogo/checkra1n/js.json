@@ -9,16 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "自定义启动 Logo 为 checkra1n 微标",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "rootless 请先自己挂载路径",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "自定义启动 Logo 为 checkra1n 微标</br> Tips：rootless 请先自己挂载路径",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

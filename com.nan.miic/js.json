@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "将系统图标图片缓存文件夹重定向到 /tmp",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将系统图标图片缓存文件夹重定向到 /tmp",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

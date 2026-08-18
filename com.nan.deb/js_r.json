@@ -9,16 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "deb 扩展，在 Filza 中直接通过脚本使用",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "可用于解压不释放文件的脚本 deb",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "deb 扩展，在 Filza 中直接通过脚本使用</br> 可用于解压不释放文件的脚本 deb",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

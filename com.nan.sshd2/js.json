@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "无聊的补丁，将 sshd 修改为 sshd2 的同时不影响 openssh 正常使用",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "无聊的补丁，将 sshd 修改为 sshd2 的同时不影响 openssh 正常使用",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

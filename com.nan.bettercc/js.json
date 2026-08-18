@@ -9,14 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "定制你的控制中心。",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "包括透明模块，重新排列连接模块，修改模块大小，天气模块（应该不可用）",
+                    "markdown": "定制你的控制中心</br> 包括透明模块，重新排列连接模块，修改模块大小，天气模块（应该不可用）",
                     "useRawFormat": true
                 },
                 {

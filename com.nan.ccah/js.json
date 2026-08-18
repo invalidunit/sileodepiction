@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "将 iOS14 横屏时的亮度和声音占用三格改回两格",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "将 iOS14 横屏时的亮度和声音占用三格改回两格",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

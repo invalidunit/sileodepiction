@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "激活原生 iPhone 控制中心静音模块",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "激活原生 iPhone 控制中心静音模块",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -30,10 +29,9 @@
                     ]
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "为 iPhone 启用 CC 模块 '静音模式'",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "为 iPhone 启用 CC 模块 '静音模式'",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionSpacerView",

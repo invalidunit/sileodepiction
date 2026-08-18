@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "漂亮的音量 HUD 外观",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "漂亮的音量 HUD 外观",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

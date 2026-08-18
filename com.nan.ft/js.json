@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "一个从设备提取默认字体的脚本",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "一个从设备提取默认字体的脚本",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",

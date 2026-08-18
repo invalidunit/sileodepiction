@@ -9,10 +9,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "更简便的快照管理",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "更简便的快照管理",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
