@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.7.1",
+                    "text": "0.7.2",
                     "title": "最新版本"
                 },
                 {
@@ -76,7 +76,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 10 月 25 日",
+                    "text": "2026 年 10 月 28 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -89,6 +89,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.7.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增可自定义重载方式</br> 设置中右上角“应用”分离成“立即挂载”和“重载”</br> 新增直接在 Filza 中打开路径（需要已挂载）",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.7.1",
